@@ -1,5 +1,182 @@
-<h1>This is my home page!</h1>
+<!DOCTYPE html>
+<html>
 
-<body>
-  My link-in-bio
-</body>
+  <head>
+    <!-- where we tell the browser how to process the document: -->
+		<!-- what title to put in the browser tab -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Daniel Halbe
+    </title>
+  </head>
+
+  <body>
+    <style>
+      html {
+        min-height: 100%;
+      }
+
+      body {
+        min-height: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(180deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060, #ffb56b);
+        color: rgba(255, 255, 255, 1.0);
+        font-family: "Impact";
+        font-family: "Raleway";
+        /*
+        * {
+        border: 1px red dashed;
+        }
+        */
+      }
+      /* Other declarations */
+
+      .image-row {
+        margin-bottom: 20px;
+        text-align: center
+      }
+      
+      .name-row {
+        margin-bottom: 30px;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 24px;
+        font-weight: 900;
+      }
+      
+      .social-icons-row {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .item {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+      }
+
+      a {
+        color: rgba(255, 255, 255, 1.0);
+        text-decoration: none;
+      }
+
+      .item {
+        background-color: rgba(149, 123, 173, 0.5);
+        border-radius: 1000px;
+        padding: 5px;
+        padding-right: 53px;
+        box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
+      }
+    
+      .avatar-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+      
+      .main-container {
+        max-width: 640px;
+        margin: auto;
+      }
+
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
+      }
+
+    </style>
+
+    <div class="main-container">
+      
+      <div class="image-row">
+        <img class="avatar-image" class="thumbnail" src="/thumbnails/WebbCrabNebula.jpg" alt="Webb Crab Nebula">
+      </div>
+  
+      <div class="name-row">
+        Daniel Halbe
+      </div>
+  
+      <div class="social-icons-row">
+
+        <a class="link-text" href="https://github.com/dhalbe24" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a class="link-text" href="https://twitter.com/astromaser" target="_blank">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+  
+        <a class="link-text" href="https://www.linkedin.com/in/daniel-halbe-804653b0/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+  
+        <a class="link-text" href="https://www.instagram.com/entropylesszero/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+  
+      <div class="links-row">
+        <div class="item">
+          <img src="/thumbnails/yc.png">
+  
+          <a target="_blank" href="http://paulgraham.com/startupideas.html">
+            How to Get Startup Ideas
+          </a>
+        </div>
+  
+        <div class="item">
+          <img src="/thumbnails/typography.jpg">
+  
+          <a target="_blank" href="https://practicaltypography.com/typography-in-ten-minutes.html">
+            Typography in ten minutes
+          </a>
+        </div>
+  
+        <!-- Etc etc, for as many items as you want in your list -->
+  
+      </div> <!-- links-row -->
+    </div> <!-- main-container -->
+  </body>
+<!-- 
+  <center>
+  <body>
+    My link-in-bio
+    <div>
+      <img src= "./WebbCrabNebula.jpg" alt="Webb Telescope Crab Nebula">
+    </div>
+
+    <div class="name">
+      Daniel Halbe
+    </div> 
+
+    <div class="social icons">
+      <a href="https://twitter.com/astromaser" target="_blank" #to open in new tab>
+        Twitter
+      </a>
+      <a href="https://www.linkedin.com/in/daniel-halbe-804653b0/" target="_blank">
+        LinkedIn
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=100009559492057" target="_blank">
+        Facebook
+      </a>
+    </div>
+
+  </body>
+  </center>
+  -->
+
+</html>
+
+<!-- <h1>This is my home page!</h1> -->
